@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegisterPage</string>
+    <string-array name="Choose">
+        <item>Leader</item>
+        <item>Member</item>
+    </string-array>
+</resources>

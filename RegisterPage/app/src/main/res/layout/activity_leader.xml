@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout tools:context=".LeaderActivity"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Amount: 80000"
+        android:id="@+id/tvTotalAmount"/>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Remaining Amount "
+        android:id="@+id/tvRemainingAmount"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etPaid"
+        android:hint="Enter amount to be paid"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Show Group"
+        android:id="@+id/buttonShowGroup"
+        android:onClick="ShowGroup_Click"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="MonthlyStatus"
+        android:id="@+id/buttonMonthlyStatus"
+        android:onClick="MonthlyStatus_Click"/>
+
+</LinearLayout>
+
+</RelativeLayout>
